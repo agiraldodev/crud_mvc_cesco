@@ -15,7 +15,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-3">
-        <form action="" method="post" class="w-32">
+        <form action="<?= base_url('/productos/crear') ?>" method="post" class="w-32">
           <input type="text" name="nombre" class="form-control" placeholder="Nombre" />
           <input type="text" name="precio" class="form-control" placeholder="Precio" />
           <input type="text" name="stock" class="form-control" placeholder="Stock" />
