@@ -11,3 +11,4 @@ $routes->get('/', 'Home::index');
 $routes->get('/productos/nuevo', 'ProductoController::crear');
 
 $routes->post('/productos/crear', 'ProductoController::guardarProducto');
+
